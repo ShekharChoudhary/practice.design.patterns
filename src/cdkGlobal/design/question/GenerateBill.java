@@ -15,6 +15,13 @@ public class GenerateBill {
 		firstCustomer.add(3000);
 		firstCustomer.add(1000);
 		System.out.println(firstCustomer.getBill());
+		
+		Customer secondCustomer = new Customer(new RegularCustomer());
+		secondCustomer.add(2000);
+		secondCustomer.add(1000);
+		secondCustomer.add(500);
+		secondCustomer.add(4000);
+		System.out.println(secondCustomer.getBill());
 	}
 	
 }
