@@ -6,13 +6,13 @@ public class PremiumCustomer implements BillStrategy{
 	public double calculateBill(double amount) {
 		double discount =0;
 		if(amount<4000) {
-			discount = amount *(10d/100d);
+			discount = PercentageCalculator.get10Percent(amount);
 		}else if(amount>=4000 && amount <8000) {
-			discount = amount *(15d/100d);
+			discount = PercentageCalculator.get15Percent(amount);
 		}else if(amount>=8000 && amount <12000) {
-			discount = amount *(20d/100d);
+			discount = PercentageCalculator.get20Percent(amount);
 		}else {
-			discount = amount *(30d/100d); 
+			discount = PercentageCalculator.get30Percent(amount);
 		}
 		return amount - discount;
 	}

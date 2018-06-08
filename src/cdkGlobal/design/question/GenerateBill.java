@@ -9,8 +9,8 @@ package cdkGlobal.design.question;
 public class GenerateBill {
 
 	public static void main(String[] args) {
-		Customer firstCustomer = new Customer(new RegularCustomer());
-		firstCustomer.add(100);
+		Customer firstCustomer = new Customer(new PremiumCustomer());
+		firstCustomer.add(1000.50);
 		firstCustomer.add(2000.50);
 		firstCustomer.add(3000);
 		firstCustomer.add(1000);
