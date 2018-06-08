@@ -2,6 +2,6 @@ package cdkGlobal.design.question;
 
 public interface BillStrategy {
 
-	public float calculateBill(float amount);
+	public double calculateBill(double amount);
 	
 }
