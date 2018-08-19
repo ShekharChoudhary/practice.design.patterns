@@ -1,5 +1,14 @@
 package decorator;
-
+/**
+ * This pattern is used to extend the feature of an existing setup without modifying it. 
+ * Here we have Shape classes and the we provided colour to shape without modifying the 
+ * actual implementation of shape class (which is Circle in this case)
+ * This pattern is widely used in file IO in java
+ * please refer this link for more details:-
+ * https://stackoverflow.com/questions/6366385/use-cases-and-examples-of-gof-decorator-pattern-for-io
+ * @author choudshe
+ *
+ */
 public class DemoDecorator {
 	
 	public static void main(String[] args) {
