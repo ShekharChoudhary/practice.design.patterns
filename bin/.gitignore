@@ -1,13 +1,1 @@
-/abstractFactory/
-/builder/
-/cdkGlobal/
-/chain/
-/command/
-/facade/
-/factory/
-/prototype/
-/singleton/
-/strategy/
-/template/
-/visitor/
-/decorator/
+/adapter/
