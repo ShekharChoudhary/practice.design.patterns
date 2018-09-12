@@ -25,5 +25,8 @@ public class DemoDecorator {
 		//This will draw a plain circle and colour it with red colour and then with blue colour
 		Shape blueRedCircle = new Blue(new Red(new Circle()));
 		blueRedCircle.draw();
+		System.out.println("***************");
+		Shape blueRedBlueCircle = new Blue(new Red(new Blue(new Circle())));
+		blueRedBlueCircle.draw();
 	}
 }

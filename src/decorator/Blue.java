@@ -12,7 +12,11 @@ public class Blue extends Colour{
 	}
 	@Override
 	public void setColour() {
-		System.out.print(" with Blue colour drawn");
+		if(! (shape instanceof Colour)) {
+		System.out.println("The colour of the "+shape.getClass().getSimpleName()+" is Blue.");
+		}else {
+			System.out.println("It is also colours as Blue ");
+		}
 	}
 
 }
