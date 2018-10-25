@@ -1,5 +1,9 @@
 package adapter;
-
+/**
+ * Also check RunnableAdapter in Executors class in java.
+ * @author choudshe
+ *
+ */
 public class ImplementToyAdapter {
 
 	public static void main(String[] args) {
