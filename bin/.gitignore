@@ -1,1 +1,10 @@
 /interpreter/
+/mediator/
+/adapter/
+/iterator/
+/bridge/
+/structural/
+/behavioral/
+/creational/
+/others/
+/test/

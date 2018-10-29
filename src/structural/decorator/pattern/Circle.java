@@ -1,0 +1,11 @@
+package structural.decorator.pattern;
+
+public class Circle implements Shape{
+
+	@Override
+	public void draw() {
+		System.out.println("A Circle is drawn.");
+		
+	}
+
+}
