@@ -7,5 +7,22 @@ package behavioral.interpreter.pattern;
  *
  */
 public class InterpreterClient {
+	
 
+	public String interpret (Integer value, Expression exp) {
+		
+//		String convertedValue = exp.interpreter(value);
+		
+		
+		return null;
+	}
+	
+	public static void main (String [] args) {
+		int binary = 11;
+		
+		int hexadecimal = 12;
+		
+		InterpreterClient inc = new InterpreterClient();
+		
+	}
 }

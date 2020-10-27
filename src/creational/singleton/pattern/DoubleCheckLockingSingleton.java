@@ -2,7 +2,7 @@ package creational.singleton.pattern;
 /**
  * The double check locking is done in a multithreaded environment.
  * double check is applied because at one point of time if a thread has entered the synchronized block 
- * but yet not initialized the singleton and at the same point if other thread crosses the first check 
+ * but yet not initialized the instance and at the same point if other thread crosses the first check 
  * so in this case if double check was not there then other thread would also have initialized the 
  * singleton instance.
  * @author choudshe
